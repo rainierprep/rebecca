@@ -5,23 +5,112 @@
 
 <head>
 
-<!-- Stylesheet links link the HTML you're building here to the style sheet. Stylesheets are what give it formatting, colors, etc. style.css is the style sheet that we're going to create -->
-<link href="css/style.css" rel="stylesheet">
+    <!-- Stylesheet links link the HTML you're building here to the style sheet. Stylesheets are what give it formatting, colors, etc. style.css is the style sheet that we're going to create -->
+    <link href="css/style.css" rel="stylesheet">
 
-<!-- the next two links are also style sheets, but they're Open Source, which means that they're like pre-built templates anyone can use. We're going to borrow them for our web pages. -->
+    <!-- Place your font link here -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- the next two links are also style sheets, but they're Open Source, which means that they're like pre-built templates anyone can use. We're going to borrow them for our web pages. -->
 
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-<!-- a <title> tag tells visitors and search engines like Google what the title of your site is -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<title>Rebecca Samuelson</title>
+    <!-- a <title> tag tells visitors and search engines like Google what the title of your site is -->
+
+    <title>Rebecca Samuelson</title>
 
 </head>
 
+<!-- the body section of the website is where most of your content will live. the body is what changes per-page on any given website. -->
+
 <body>
-  <h1>Ada Lovelace</h1>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-text">
+                <div class="header-lead-in">
+                    <h1>Space Jam</h1>
+                </div>
+                <div class="header-heading">
+                    <h2>Get Ready to Jam</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quick Facts section: This section is templated to highlight a couple fast facts about your topic -->
+    <section id="quick">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-md-left">
+                    <h2 class="section-heading">Quick Facts</h2>
+                    <h3 class="section-subheading">Space Jam</h3>
+                    <p><em>Movie</em></p>
+                    <p><b>Release Date:</b> November 15, 1996</p>
+                    <p><b>Box Office:</b> $230.4 million</p>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- This section should be used to tell your readers why your subject is important! -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-heading">About Space Jam</h2>
+                <div class="col-md-6">
+                    <p>Michael Jordan stars in Space Jam with the Looney Tunes Characters. After announcing his retirement in 1993, Jordan decides to become a baseball player.</p>
+                    <p>Unfortunately, MJ wasn't great at baseball and it becomes evident pretty quickly that he should've stuck to basketball. Meanwhile, on another planet, an amusement park owner is looking to boost ticket sales and sends one of his minions to capture the Looney Tunes to use them for entertainment.</p>
+                    <p>To escape, the Looney Tunes challenge the kidnappers to a basketball game. If they win, they go free. If they lose, they become an Amusement Park attraction.</p>
+                    <h3>Little did the Monstars know, the Looney Tunes have the Greatest Of All Time on their team.</h3>
+                </div>
+                <div class="col-md-1"></div>
+                <!-- this is where you'll want to put a photo of your topic -->
+                <div class="col-md-4">
+                  <div class="card" style="width:100%;text-align:center;">
+                      <img class="card-img-top img-fluid" src="img/spacejam.jpg" alt="Card image cap">
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                  <span class="copyright">Copyright &copy; Rebecca Samuelson 2017</span>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Tether -->
+    <script src="vendor/tether/tether.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
 
 </body>
+
 </html>
