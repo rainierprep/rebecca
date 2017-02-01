@@ -11,12 +11,26 @@ Create a one-page website about a topic of your choice, based on the category yo
 We'll take the project week by week:
 
 #### Week 1
-Intro to HTML & CSS. We'll commit our first change on Github.
+HTML, CSS, and Github
+
+- HTML Overview
+- CSS Overview
+- Our First Github Commit
+
 ![week-1]
 
 #### Week 2
-Content & Styling with HTML & CSS
+Content & Basic Styling
+
+- Content
+- Fonts
+- Images
+
 ![week-2]
+
+#### Week 3
+Bootstrap and Spacing
+![week-3]
 
 
 [week-1]: img/week-1.png
