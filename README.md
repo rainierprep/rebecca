@@ -16,7 +16,7 @@ Intro to HTML & CSS. We'll commit our first change on Github.
 
 #### Week 2
 Content & Styling with HTML & CSS
-![week-1]
+![week-2]
 
 
 [week-1]: img/week-1.png
